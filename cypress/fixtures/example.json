@@ -1,0 +1,14 @@
+{
+  "name": "Hervin",
+  "lastName": "Camargo",
+  "email": "hervincamargo@gmail.com",
+  "gender": "Female",
+  "phoneNumber":"3003933328",
+  "subjects":"English",
+  "date": ["March","1984","31"],
+  "hobbies": ["Sports", "Music"],
+  "imagen":"my-image.png",
+  "address": "calle 131# 99-20",
+  "state":"NCR",
+  "city":"Delhi"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "curso_automatizacion_udemy",
+  "version": "1.0.0",
+  "description": "Automatizacion web",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "avanzadas": "node_modules\\.bin\\cypress run --browser chrome --headed"
+  },
+  "author": "Hervin Camargo",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}
