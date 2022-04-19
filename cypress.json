@@ -9,10 +9,16 @@
         "reporterEnabled": "mochawesome",
         "mochawesomeReporterOptions": {
             "reportDir": "cypress/reports/mocha",
+            "charts": true,
+            "reportPageTitle": "My Test Suite",
+            "embeddedScreenshots": true,
             "quite": true,
             "overwrite": false,
             "html": false,
             "json": true
         }
-    }
+    },
+    "video": false,
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "cypress/reports/mochareports/assets"
 }
