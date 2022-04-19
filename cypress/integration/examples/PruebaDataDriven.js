@@ -2,7 +2,7 @@
 /// <reference types="cypress-xpath" />
 require('cypress-xpath')
 // Suit de casos de prueba avanzados
-describe('Segundo de casos de prueba avanzados', function(){
+describe('Datadriven', function(){
     before(function(){
         //Cargamos lo valores del archivo example.json
         cy.fixture('example').then(function (datos) {

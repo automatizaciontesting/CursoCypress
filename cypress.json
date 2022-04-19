@@ -19,6 +19,6 @@
         }
     },
     "video": false,
-    "screenshotOnRunFailure": true,
+    "screenshotOnRunFailure": false,
     "screenshotsFolder": "cypress/reports/mochareports/assets"
 }
