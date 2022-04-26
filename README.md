@@ -5,5 +5,5 @@ Este repositorio se ha creado con el fin almacenar el contenido de un curso real
 
 ![CypressLogo](imagesReadme/cypress_io_logo.png)
 
-  ![JenkinsLogo](imagesReadme/jenkins_logo.png)
+![JenkinsLogo](imagesReadme/jenkins_logo.png)
 </p>

@@ -1,12 +1,12 @@
 /// <reference types="Cypress"/>    
  
 //Importamos Clases de Page Objects
-import AddressPage from '../../support/PageObjects/AddressPage'
-import AuthenticationPage from '../../support/PageObjects/AuthenticationPage'
-import HomePage from '../../support/PageObjects/HomePage'
-import PaymentPage from '../../support/PageObjects/PaymentPage'
-import ShippingPage from '../../support/PageObjects/ShippingPage'
-import ShoppingSummaryCartPage from '../../support/PageObjects/ShoppingCartSummaryPage'
+import AddressPage from '../../../support/PageObjects/AddressPage'
+import AuthenticationPage from '../../../support/PageObjects/AuthenticationPage'
+import HomePage from '../../../support/PageObjects/HomePage'
+import PaymentPage from '../../../support/PageObjects/PaymentPage'
+import ShippingPage from '../../../support/PageObjects/ShippingPage'
+import ShoppingSummaryCartPage from '../../../support/PageObjects/ShoppingCartSummaryPage'
  
  
  

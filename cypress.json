@@ -4,21 +4,24 @@
     "env":{
         "ambiente":"http://automationpractice.com"
     },
+    "chromeWebSecurity": false,
+    "testFiles": "**/*.feature",
+    "screenshotsFolder": "cypress/reports/mochareports/assets",
     "reporter": "cypress-multi-reporters",
+
     "reporterOptions": {
         "reporterEnabled": "mochawesome",
         "mochawesomeReporterOptions": {
             "reportDir": "cypress/reports/mocha",
-            "charts": true,
-            "reportPageTitle": "My Test Suite",
-            "embeddedScreenshots": true,
+            "chart":true,
+            "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+            "reportPageTitle": "Hervin Camargo",
+            "embeddedScreenshots":true,
             "quite": true,
             "overwrite": false,
             "html": false,
             "json": true
         }
-    },
-    "video": false,
-    "screenshotOnRunFailure": false,
-    "screenshotsFolder": "cypress/reports/mochareports/assets"
+    }
+    
 }
