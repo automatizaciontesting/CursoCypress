@@ -19,8 +19,10 @@
   "author": "hervincamargo",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.6.0",
-    "cypress-cucumber-preprocessor": "^4.3.1",
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "cypress": "^10.3.0",
     "cypress-mochawesome-reporter": "^3.0.1",
     "cypress-multi-reporters": "^1.6.0",
     "mocha": "^9.2.2",
@@ -29,5 +31,6 @@
     "mochawesome-report-generator": "^6.2.0"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
-  }}
+    "step_definitions": "cypress/e2e/examples/cucumber/**/*.{js,ts}"
+  }
+}

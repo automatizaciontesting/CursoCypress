@@ -1,4 +1,4 @@
-import {Given,When,Then,And} from "cypress-cucumber-preprocessor/steps"
+import { Given, When, Then, And } from "@badeball/cypress-cucumber-preprocessor"
 
 
 //Importamos Clases de Page Objects
